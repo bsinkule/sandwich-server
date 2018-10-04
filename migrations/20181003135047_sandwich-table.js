@@ -4,6 +4,7 @@ exports.up = function (knex, Promise) {
         table.text('name')
         table.text('description')
         table.text('imageURL')
+        table.text('videoURL')
         })
     }
 
